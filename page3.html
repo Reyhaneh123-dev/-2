@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحه سوم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center-box">
+  <h2>تعریف مجموعه A</h2>
+
+  <select id="knownSet">
+    <option value="">انتخاب کنید…</option>
+    <option value="N">N</option>
+    <option value="Z">Z</option>
+  </select>
+
+  <input id="condition" type="text" placeholder="مثلاً بزرگتر مساوی 3">
+
+  <button class="btn" onclick="makeExpression()">نمایش نماد</button>
+
+  <div id="mathResult" class="result-box"></div>
+
+  <button class="btn" onclick="goTo('page4.html')">رفتن به صفحه ۴</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
